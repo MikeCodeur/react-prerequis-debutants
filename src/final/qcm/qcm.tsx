@@ -52,16 +52,25 @@ const QCM: Array<IQCMInterface> = [
   },
   {
     exerciseId: 'src/exercise/03.md',
-    exerciseTitle: 'Manipuler le style',
+    exerciseTitle: 'JavaScript - Variables et Types',
     quiz: [
       {
-        question: "LEs styles  ?",
-        options: ["css", "jss", "xss", "pdf"],
-        answer: "0"
-      },{
-        question: "HMTL est ",
-        options: ["a2", "b2", "c2", "d2"],
+        question: "Quel mot clef pour déclarer un variable ?",
+        options: ["int", "vari", "var", "zet"],
         answer: "2"
+      },
+      {
+        question: "Comment affecter une valeur ?",
+        options: ["==", "+", "||", "="],
+        answer: "3"
+      },{
+        question: "Eliminer l'intru",
+        options: ["String", "Number", "Boolean", "Object"],
+        answer: "3"
+      },{
+        question: "A quoi sert typeof",
+        options: ["Connaitre le type", "Déclarer une variable", "Affecter une valeur ", "Tester une variable"],
+        answer: "0"
       } 
     ],
   },
