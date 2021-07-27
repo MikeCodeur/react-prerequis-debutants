@@ -76,10 +76,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikecodeur/react-module-template.git"
+    "url": "git+https://github.com/mikecodeur/react-prerequis-debutants.git"
   },
   "bugs": {
-    "url": "https://github.com/mikecodeur/react-module-template/issues"
+    "url": "https://github.com/mikecodeur/react-prerequis-debutants/issues"
   },
   "msw": {
     "workerDirectory": "public"
