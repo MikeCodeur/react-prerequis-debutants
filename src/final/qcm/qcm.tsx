@@ -37,37 +37,17 @@ const QCM: Array<IQCMInterface> = [
   //export
   {
     exerciseId: 'src/exercise/02.md',
-    exerciseTitle: 'Manipuler le DOM',
+    exerciseTitle: 'JavaScript dans une page HTML',
     quiz: [
       {
-        question: "DOM cest quoi  ?",
-        options: ["chrome", "bbb", "sss", "ddd"],
-        answer: "0"
+        question: "Comment ajouter du JavaScript ?",
+        options: ["avec la balise code", "avec la balise script", "avec la balise javascript", "avec la balise body"],
+        answer: "1"
       },{
-        question: "HMTL est ",
-        options: ["a2", "b2", "c2", "d2"],
+        question: "Les instructions s'exécutent : ",
+        options: ["Aléatoirement", "De bas en haut", "De haut en bas", "L'ordre n'a pas d'importance"],
         answer: "2"
-      },{
-        question: "Render app",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "3"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      }
+      },
     ],
   },
   {
