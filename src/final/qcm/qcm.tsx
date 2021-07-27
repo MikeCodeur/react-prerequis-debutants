@@ -17,36 +17,20 @@ interface IQCMInterface {
 const QCM: Array<IQCMInterface> = [
   {
     exerciseId: 'src/exercise/01.md',
-    exerciseTitle: 'Les bases de React',
+    exerciseTitle: 'Rappel HTML CSS',
     quiz: [
       {
-        question: "React est ?",
-        options: ["lib", "framework", "langage", "autre"],
-        answer: "0"
-      },{
-        question: "HMTL est ",
-        options: ["a2", "b2", "c2", "d2"],
+        question: "HTML est ?",
+        options: ["Un langage de programmation", "Un langage orienté objet", "Un langage de balisage", "Un langage fonctionnel"],
         answer: "2"
       },{
-        question: "Render app",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "3"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
+        question: "Que signifie CSS ?",
+        options: ["Color Style Simple", "Cascading Style Sheets", "Cascading Simple Sheets", "Color Style Sheets "],
         answer: "1"
       },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
-      },{
-        question: "How heavy are you?",
-        options: ["a3", "b3", "c3", "d3"],
-        answer: "1"
+        question: "Cocher l'intru",
+        options: ["Inline CSS", "External CSS", "Include CSS", "External CSS"],
+        answer: "2"
       }
     ],
   },

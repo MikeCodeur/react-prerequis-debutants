@@ -1,12 +1,12 @@
 {
-  "name": "@mikecodeur/react-module-template",
-  "title": "React Module Template",
-  "description": "Module template pour la création future de module de formation",
+  "name": "@mikecodeur/react-prerequis-debutants",
+  "title": "React Prérequis débutants",
+  "description": "Module de la formation React JS, mise à niveau pour débutants",
   "author": "Mike Codeur <contact@mikecodeur.com> (https://mikecodeur.com/)",
   "version": "1.0.0",
   "private": true,
   "keywords": [],
-  "homepage": "http://react-module-template.netlify.app/",
+  "homepage": "http://react-prerequis-debutants.netlify.app/",
   "license": "GPL-3.0-only",
   "main": "src/index.js",
   "engines": {
