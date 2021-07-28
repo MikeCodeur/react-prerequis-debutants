@@ -80,13 +80,34 @@ const QCM: Array<IQCMInterface> = [
     quiz: [
       {
         question: "Comment déclarer une fonction ?",
-        options: ["Avec var", "Avec function", "Avec func", "avec let"],
+        options: ["Avec var", "Avec function", "Avec func", "Avec let"],
         answer: "1"
       },
       {
         question: "Une fonction ...",
         options: ["A obligatoirement des paramètres", "N'a jamais de paramètres", "Ne peut avoir que 2 paramètres", "Peut avoir ou ne pas avoir de paramètre"],
         answer: "3"
+      }
+    ],
+  },
+  {
+    exerciseId: 'src/exercise/05.md',
+    exerciseTitle: 'JavaScript - Array et Boucles',
+    quiz: [
+      {
+        question: "Comment initialiser un array ?",
+        options: ["Avec {}", "Avec []", "Avec ''", "Avec #"],
+        answer: "1"
+      },
+      {
+        question: "Comment ajouter un élément ?",
+        options: ["split", "pop", "push", "pull"],
+        answer: "2"
+      },
+      {
+        question: "Comment supprimer un élément ?",
+        options: ["split", "splice", "delete", "pull"],
+        answer: "1"
       }
     ],
   },
