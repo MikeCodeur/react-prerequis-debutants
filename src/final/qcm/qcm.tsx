@@ -74,6 +74,22 @@ const QCM: Array<IQCMInterface> = [
       } 
     ],
   },
+  {
+    exerciseId: 'src/exercise/04.md',
+    exerciseTitle: 'JavaScript - Fonctions',
+    quiz: [
+      {
+        question: "Comment déclarer une fonction ?",
+        options: ["Avec var", "Avec function", "Avec func", "avec let"],
+        answer: "1"
+      },
+      {
+        question: "Une fonction ...",
+        options: ["A obligatoirement des paramètres", "N'a jamais de paramètres", "Ne peut avoir que 2 paramètres", "Peut avoir ou ne pas avoir de paramètre"],
+        answer: "3"
+      }
+    ],
+  },
 ]
 
 //export default QCM;
