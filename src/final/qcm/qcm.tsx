@@ -137,6 +137,42 @@ const QCM: Array<IQCMInterface> = [
       }
     ],
   },
+  {
+    exerciseId: 'src/exercise/07.md',
+    exerciseTitle: ' JavaScript - Conditions - Opérateurs de comparaison',
+    quiz: [
+      {
+        question: "Un operateur de comparaisons retourne ...",
+        options: ["Un String", "Un Boolean", "Un Array", "Rien"],
+        answer: "1"
+      },
+      {
+        question: "Lequel n'est pas un comparateur de comparaison ?",
+        options: ["==", "===", "=", "!="],
+        answer: "2"
+      },
+      {
+        question: "A quoi sert l'opérateur logique &&",
+        options: ["A faire un ET", "A faire un OU", "A faire un NON"],
+        answer: "0"
+      },
+      {
+        question: "A quoi sert l'opérateur logique ||",
+        options: ["A faire un ET", "A faire un OU", "A faire un NON"],
+        answer: "1"
+      },
+      {
+        question: "A quoi sert l'opérateur logique !",
+        options: ["A faire un ET", "A faire un OU", "A faire un NON"],
+        answer: "2"
+      },
+      {
+        question: "Le Else est il obligatoire après un if",
+        options: ["Oui", "Non"],
+        answer: "1"
+      }
+    ],
+  },
 ]
 
 //export default QCM;

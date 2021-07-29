@@ -14,7 +14,7 @@
     "npm": ">=6"
   },
   "dependencies": {
-    "@mikecodeur/react-course-app": "0.0.4-beta",
+    "@mikecodeur/react-course-app": "0.0.5-beta",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
     "@types/react": "^17.0.11",
