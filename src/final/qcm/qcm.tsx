@@ -111,6 +111,32 @@ const QCM: Array<IQCMInterface> = [
       }
     ],
   },
+  {
+    exerciseId: 'src/exercise/06.md',
+    exerciseTitle: 'JavaScript - Object',
+    quiz: [
+      {
+        question: "Comment initialiser un objet ?",
+        options: ["Avec {}", "Avec []", "Avec ''", "Avec #"],
+        answer: "0"
+      },
+      {
+        question: "Un objet peut stoker  ...",
+        options: ["Tout type de variable", "Uniquement des strings", "Uniquement des numbers", "Uniquement des arrays"],
+        answer: "0"
+      },
+      {
+        question: "Comment accéder à la valeur d'une propriété de l'objet ?",
+        options: ["var personne", "personne.nom", "var nom from personne", "{nom}"],
+        answer: "1"
+      },
+      {
+        question: "Peut-on boucler sur un objet ?",
+        options: ["oui", "non"],
+        answer: "0"
+      }
+    ],
+  },
 ]
 
 //export default QCM;
