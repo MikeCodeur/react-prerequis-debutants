@@ -173,6 +173,27 @@ const QCM: Array<IQCMInterface> = [
       }
     ],
   },
+  {
+    exerciseId: 'src/exercise/08.md',
+    exerciseTitle: 'JavaScript - Manipuler le DOM',
+    quiz: [
+      {
+        question: "Qu'est-ce que le DOM ?",
+        options: ["Document Oriented Model", " Document Object Model", "Donuts Orange Model", "Document Object Map"],
+        answer: "1"
+      },
+      {
+        question: "Comment récupérer la <div id='root'> ",
+        options: ["getElementById('root')", "document.getElementById('root')", "document.getElementById('div')", "document.getElement('root')"],
+        answer: "1"
+      },
+      {
+        question: " createAttribute suffit-il pour créer un attribut ?",
+        options: ["Oui", "Non, il faut setAttributeNode", ],
+        answer: "1"
+      }
+    ],
+  },
 ]
 
 //export default QCM;
