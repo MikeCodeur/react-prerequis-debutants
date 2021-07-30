@@ -194,6 +194,27 @@ const QCM: Array<IQCMInterface> = [
       }
     ],
   },
+  {
+    exerciseId: 'src/exercise/09.md',
+    exerciseTitle: 'JavaScript - Les Evènements',
+    quiz: [
+      {
+        question: "Quelle est la bonne solution ?",
+        options: ["onclick = \"handleClic\"","onclick = \"handleClic()\""],
+        answer: "1"
+      },
+      {
+        question: "Existe-il des évenements pour detecter le déplacement de la souris ",
+        options: ["Oui", "Non"],
+        answer: "0"
+      },
+      {
+        question: "Qu'est ce qui va de paire avec addEventListener",
+        options: ["getListener", "deleteEventListener","manageListener", "removeEventListener" ],
+        answer: "3"
+      }
+    ],
+  },
 ]
 
 //export default QCM;
