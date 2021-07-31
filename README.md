@@ -32,6 +32,7 @@
 [![Build Status][build-badge]][build]
 [![GPL 3.0 License][license-badge]][license]
 [![All Contributors][all-contributors-badge]](#contributors-)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/40a35ecf-1972-4f90-b2d5-abcca8e2d862/deploy-status)](https://app.netlify.com/sites/gracious-brattain-0d6b8d/deploys)
 <!-- prettier-ignore-end -->
 
 ## Les prérequis 
