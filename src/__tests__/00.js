@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {robertAlertTip} from '@mikecodeur/react-course-app/test-utils'
 import chalk from 'chalk'
 import {render, screen, prettyDOM} from '@testing-library/react'
