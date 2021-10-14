@@ -1,12 +1,12 @@
 {
   "name": "@mikecodeur/react-prerequis-debutants",
   "title": "React Prérequis débutants",
-  "description": "Module de la formation React JS, mise à niveau pour débutants",
+  "description": "Module de la formation React Mastery, mise à niveau pour débutants",
   "author": "Mike Codeur <contact@mikecodeur.com> (https://mikecodeur.com/)",
   "version": "1.0.0",
   "private": true,
   "keywords": [],
-  "homepage": "http://react-prerequis-debutants.netlify.app/",
+  "homepage": "https://react-prerequis-debutant.mikecodeur.com",
   "license": "GPL-3.0-only",
   "main": "src/index.js",
   "engines": {
@@ -36,7 +36,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "test:coverage": "npm run test -- --watchAll=false",
-    "test:exercises": "npm run test -- testing.*exercises\\/ --onlyChanged",
     "init": "node install",
     "lint": "eslint .",
     "format": "prettier --write \"./src\"",
