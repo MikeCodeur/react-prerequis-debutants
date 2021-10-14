@@ -187,16 +187,12 @@ ton avis ! https://go.mikecodeur.com/cours-react-avis
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
 [git]: https://git-scm.com/
-
 [build-badge]: https://img.shields.io/github/workflow/status/MikeCodeur/react-prerequis-debutants/installation
 [build]: https://github.com/MikeCodeur/react-prerequis-debutants/actions
 [netlify-badge]: https://api.netlify.com/api/v1/badges/40a35ecf-1972-4f90-b2d5-abcca8e2d862/deploy-status
 [netlify]: https://app.netlify.com/sites/gracious-brattain-0d6b8d/deploys
 [license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
 [license]: https://github.com/mikecodeur/react-prerequis-debutants/blob/main/LICENSE
-[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc]: https://github.com/mikecodeur/react-prerequis-debutants/blob/main/CODE_OF_CONDUCT.md
-[emojis]: https://github.com/mikecodeur/all-contributors#emoji-key
 [all-contributors]: https://github.com/mikecodeur/all-contributors
 [all-contributors-badge]: https://img.shields.io/github/all-contributors/mikecodeur/react-prerequis-debutants?color=orange&style=flat-square
 [win-path]: https://tutorielsgeek.com/comment-definir-des-variables-denvironnement-dans-windows-10/
