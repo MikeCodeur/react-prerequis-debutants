@@ -9,18 +9,17 @@
       <h1 id="title"></h1>
     </div>
     <script>
-      var langages = ['html','css','js'];
+      var langages = ['html', 'css', 'js']
 
-      var newUL = document.createElement("ul")
-      for (var i = 0; i <langages.length; i++) {
-        var newLI = document.createElement("li")
+      var newUL = document.createElement('ul')
+      for (var i = 0; i < langages.length; i++) {
+        var newLI = document.createElement('li')
         newLI.innerText = langages[i]
         newUL.appendChild(newLI)
       }
 
       var rootDiv = document.getElementById('root')
       rootDiv.appendChild(newUL)
-      
     </script>
   </body>
 </html>

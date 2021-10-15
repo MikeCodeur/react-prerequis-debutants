@@ -12,9 +12,6 @@ test('Just a template test', () => {
     () => {
       expect(true).toEqual(true)
     },
-    () =>
-      `Il manque le fontStyle : 'italic' sur ce container`.trim(),
+    () => `Il manque le fontStyle : 'italic' sur ce container`.trim(),
   )
-
- 
 })
