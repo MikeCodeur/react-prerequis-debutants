@@ -8,24 +8,23 @@
       <h1 id="title"></h1>
     </div>
     <script>
-      document.getElementById("title").innerHTML = "Welcome!";
+      document.getElementById('title').innerHTML = 'Welcome!'
       //h2
-      var newH2 = document.createElement("h2")
-      newH2.innerHTML = "Introduction";
+      var newH2 = document.createElement('h2')
+      newH2.innerHTML = 'Introduction'
       //add h2 to root
       var rootDiv = document.getElementById('root')
       rootDiv.appendChild(newH2)
 
       //add p to root
-      var newP = document.createElement("p")
-      newP.innerHTML = "Ceci est un paragraphe"
+      var newP = document.createElement('p')
+      newP.innerHTML = 'Ceci est un paragraphe'
       rootDiv.appendChild(newP)
 
       //add footer to root
-      var newFooter = document.createElement("footer")
-      newFooter.innerHTML = "Site créé par .."
+      var newFooter = document.createElement('footer')
+      newFooter.innerHTML = 'Site créé par ..'
       rootDiv.appendChild(newFooter)
-
     </script>
   </body>
 </html>
