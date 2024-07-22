@@ -1,0 +1,24 @@
+<!-- JavaScript - Array et Boucles  -->
+<!-- http://localhost:3000/alone/final/05.html -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>voir la console</h1>
+    <script>
+      var langageList = ['html', 'css', 'js']
+
+      langageList.push('java')
+      langageList.push('python')
+      langageList.push('c++')
+
+      for (var i = 0; i < langageList.length; i++) {
+        console.log(langageList[i])
+      }
+
+      langageList[0] = 'html5'
+
+      langageList.splice(langageList.length - 1)
+    </script>
+  </body>
+</html>

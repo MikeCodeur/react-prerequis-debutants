@@ -1,0 +1,29 @@
+<!-- JavaScript - Conditions - Opérateurs de comparaison  -->
+<!-- 🚀 Combiner des conditions (OR) -->
+<!-- http://localhost:3000/alone/final/06.html -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>voir la console</h1>
+    <script>
+      var personne = {
+        nom: 'Chirac',
+        prenom: 'Jacques',
+        age: 21,
+        adresse: 'rue du temple',
+        langages: ['html', 'css', 'js'],
+      }
+
+      if (
+        personne.adresse == 'rue du temple' ||
+        personne.adresse == 'rue de la pompe' ||
+        personne.adresse == 'rue des rosiers'
+      ) {
+        console.log('tout est ok')
+      } else {
+        console.error('ko')
+      }
+    </script>
+  </body>
+</html>

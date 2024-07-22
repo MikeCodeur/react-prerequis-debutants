@@ -1,0 +1,29 @@
+<!-- JavaScript - Conditions - Opérateurs de comparaison  -->
+<!-- 🚀 Combiner des conditions (AND) -->
+<!-- http://localhost:3000/alone/final/06.html -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>voir la console</h1>
+    <script>
+      var personne = {
+        nom: 'Chirac',
+        prenom: 'Jacques',
+        age: 21,
+        adresse: 'rue du temple',
+        langages: ['html', 'css', 'js'],
+      }
+
+      if (
+        personne.age >= 21 &&
+        personne.nom == 'Chirac' &&
+        personne.langages.includes('js')
+      ) {
+        console.log('tout est ok')
+      } else {
+        console.error('ko')
+      }
+    </script>
+  </body>
+</html>

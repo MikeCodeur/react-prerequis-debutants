@@ -1,0 +1,19 @@
+<!-- JavaScript - Manipuler le DOM  -->
+<!-- 🚀 Creer des attributs -->
+<!-- http://localhost:3000/alone/final/08.html -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="root">
+      <h1 id="title">Hello World</h1>
+    </div>
+    <script>
+      var rootDiv = document.getElementById('root')
+
+      var styleAttr = document.createAttribute('style')
+      styleAttr.value = 'background-color:powderblue;'
+      rootDiv.setAttributeNode(styleAttr)
+    </script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!-- JavaScript - Conditions - Opérateurs de comparaison  -->
+<!-- http://localhost:3000/alone/final/07.html -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>voir la console</h1>
+    <script>
+      var personne = {
+        nom: 'Chirac',
+        prenom: 'Jacques',
+        age: 21,
+        adresse: 'rue du temple',
+        langages: ['html', 'css', 'js'],
+      }
+
+      if (personne.prenom == 'Jacques') {
+        console.log('condition prenom est ok')
+      } else {
+        console.error('condition prenom est ko')
+      }
+
+      if (personne.nom == 'Macron') {
+        console.log('condition nom est ok')
+      } else {
+        console.error('condition nom est ko')
+      }
+
+      if (personne.age >= 18) {
+        console.log('condition age est ok')
+      } else {
+        console.error('condition age est ko')
+      }
+
+      if (personne.langages.includes('js')) {
+        console.log('condition langages est ok')
+      } else {
+        console.error('condition langages est ko')
+      }
+    </script>
+  </body>
+</html>

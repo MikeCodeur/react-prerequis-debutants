@@ -1,0 +1,42 @@
+<!-- JavaScript - Les Evènements  -->
+<!-- 🚀 Evènements particuliers (eventListener)-->
+<!-- http://localhost:3000/alone/final/09.bonus-1.html -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="root">
+      <h1 id="title" onmouseover="handleClick()">Pas d'information</h1>
+      <button onclick="document.removeEventListener('keydown',handlePress)">
+        supprime le listener
+      </button>
+      <div style="background-color: lightblue" onmouseenter="handleClick()">
+        entre ici
+      </div>
+      <div style="background-color: lightcoral" onmouseleave="handleClick()">
+        sort d'ici
+      </div>
+    </div>
+
+    <script>
+      function handleClick() {
+        var date = new Date().toLocaleDateString()
+        var time = new Date().toLocaleTimeString()
+        var label = 'Nous sommes le ' + date + ' il est ' + time
+
+        document.getElementById('title').innerText = label
+      }
+
+      function handlePress(event) {
+        var name = event.key
+        var code = event.code
+        console.log('name ' + name + ' : code ' + code)
+        if (code === 'Enter' || code === 'ArrowDown ' || code === 'ArrowUp') {
+          handleClick()
+        }
+      }
+      //add keydown Listener
+      document.addEventListener('keydown', handlePress)
+    </script>
+  </body>
+</html>

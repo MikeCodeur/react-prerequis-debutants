@@ -1,0 +1,22 @@
+<!-- JavaScript - Les Evènements  -->
+<!-- http://localhost:3000/alone/final/09.html -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="root">
+      <h1 id="title">Pas d'information</h1>
+      <button onclick="handleClick()">Click me</button>
+    </div>
+
+    <script>
+      function handleClick() {
+        var date = new Date().toLocaleDateString()
+        var time = new Date().toLocaleTimeString()
+        var label = 'Nous sommes le ' + date + ' il est ' + time
+
+        document.getElementById('title').innerText = label
+      }
+    </script>
+  </body>
+</html>

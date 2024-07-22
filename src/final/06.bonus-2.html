@@ -1,0 +1,38 @@
+<!-- JavaScript - Object  -->
+<!-- 🚀 stocker des functions -->
+<!-- http://localhost:3000/alone/final/06.html -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>voir la console</h1>
+    <script>
+      var personne = {
+        nom: 'john',
+        prenom: 'Doe',
+        age: 21,
+        adresse: 'rue du temple',
+        langages: ['html', 'css', 'js'],
+      }
+      console.log(personne)
+
+      personne.ville = 'paris'
+      personne.rue = 17
+      personne.framework = ['react', 'angular', 'vue']
+
+      console.log(personne)
+
+      for (var key in personne) {
+        console.log(key, personne[key])
+      }
+
+      function somme(a, b) {
+        return a + b
+      }
+
+      personne.somme = somme
+      var res = personne.somme(2, 4)
+      console.log(res)
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!-- JavaScript - Manipuler le DOM  -->
+<!-- http://localhost:3000/alone/final/08.html -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="root">
+      <h1 id="title"></h1>
+    </div>
+    <script>
+      document.getElementById('title').innerHTML = 'Welcome!'
+      //h2
+      var newH2 = document.createElement('h2')
+      newH2.innerHTML = 'Introduction'
+      //add h2 to root
+      var rootDiv = document.getElementById('root')
+      rootDiv.appendChild(newH2)
+
+      //add p to root
+      var newP = document.createElement('p')
+      newP.innerHTML = 'Ceci est un paragraphe'
+      rootDiv.appendChild(newP)
+
+      //add footer to root
+      var newFooter = document.createElement('footer')
+      newFooter.innerHTML = 'Site créé par ..'
+      rootDiv.appendChild(newFooter)
+    </script>
+  </body>
+</html>
