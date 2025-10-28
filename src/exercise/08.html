@@ -1,7 +1,7 @@
 <!-- JavaScript - Manipuler le DOM  -->
 <!-- http://localhost:3000/alone/exercise/08.html -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <body>
     <div id="root">
@@ -9,23 +9,47 @@
     </div>
 
     <script>
-      // 🐶 Récupère l'élement h1 et change son texte par Hello Worlkd
-      //  🤖 document.getElementById("title").innerHTML
+      // 🐶 Récupère l'élement h1 et change son texte par Hello World
+      // 🤖 document.getElementById("title").innerHTML
+      // document.getElementById("title").innerHTML = "Hello World"
+      document.getElementById("title").textContent = "Hello World"
 
       // 🐶 Créé ensuite un nouveau element h2 et socke cet élement dans une variable "newH2"
-      //  🤖 document.createElement
+      // 🤖 document.createElement
+      const newH2 = document.createElement("h2")
 
       // 🐶 Ajoute ensuite le text "Introduction"
+      newH2.textContent = "Introduction"
 
       // 🐶 Ajoute ensuite ce nouvel element dans la div root
-      //  🤖 document.getElementById("root")
-      //  🤖 .appendChild()
+      // 🤖 document.getElementById("root")
+      // 🤖 .appendChild()
+      const root = document.getElementById("root")
+      root.appendChild(newH2)
 
       // 🐶 Créé ensuite un nouveau element <p> avec le texte "Ceci est un paragraphe" et ajoute le dans la div root
+      const paragraph = document.createElement("p")
+      paragraph.textContent = "Ceci est un paragraphe"
+      root.appendChild(paragraph)
 
       // 🐶 Créé ensuite un nouveau element <footer> avec le texte "Site créé par .." et ajoute le dans la div root
+      const footer = document.createElement("footer")
+      footer.textContent = "Site créé par Nicolas"
+      root.appendChild(footer)
 
       // 🚀 La suite est dans la section bonus
+      const languages = ["HTML", "CSS", "JS"]
+      const languagesList = document.createElement("ul")
+      for (let i = 0; i < languages.length; i++) {
+        let languagesItem = document.createElement("li")
+        languagesItem.textContent = languages[i]
+        languagesList.appendChild(languagesItem)
+      }
+      root.appendChild(languagesList)
+
+      const styleAttr = document.createAttribute("style")
+      styleAttr.value = "background-color: powderblue;"
+      root.setAttributeNode(styleAttr)
     </script>
   </body>
 </html>

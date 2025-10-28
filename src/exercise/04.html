@@ -14,12 +14,36 @@
 <!-- 🐶 Ensuite logge dans la console la variable res après chaque appelle de fonction  -->
 <!--   🤖 console.log() -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <body>
     <h1>voir la console</h1>
     <script>
-      //démarre ici
+      function somme(a, b) {
+        return a + b
+      }
+
+      function sayHello(name) {
+        return `Hello ${name}`
+      }
+
+      function multiplication(a, b) {
+        return a * b
+      }
+
+      function calculAir(longueur, largeur) {
+        return multiplication(longueur, largeur)
+      }
+
+      // var res = `${somme(20, 5)}, ${sayHello("Nicolas")}, ${multiplication(15, 2)}, ${calculAir(4, 3)}`
+      var res = somme(20, 5)
+      console.log(res)
+      res = sayHello("Nicolas")
+      console.log(res)
+      res = multiplication(15, 2)
+      console.log(res)
+      res = calculAir(4, 3)
+      console.log(res)
     </script>
   </body>
 </html>

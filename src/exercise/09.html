@@ -1,7 +1,7 @@
 <!-- JavaScript - Les Evènements   -->
 <!-- http://localhost:3000/alone/exercise/09.html -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <body>
     <div id="root">
@@ -10,10 +10,27 @@
       <!-- 🤖 <button onclick="handleClick()">Click me</button> -->
     </div>
     <script>
+      const root = document.getElementById("root")
+      const title = document.getElementById("title")
+      const button = document.createElement("button")
+      button.setAttribute("type", "button")
+      button.textContent = "Click me"
+      root.appendChild(button)
+
       // 🐶 Créé une fonction handleClick() et déclare 2 variables date et time
       // 🤖 var date = new Date().toLocaleDateString() et
       // var time = new Date().toLocaleTimeString()
       // 📑 https://www.w3schools.com/jsref/jsref_tolocaledatestring.asp
+
+      function handleClick() {
+        const date = new Date().toLocaleDateString()
+        const time = new Date().toLocaleTimeString()
+        const label = `Nous sommes le : ${date}, il est : ${time}.`
+        title.innerText = label
+      }
+
+      button.addEventListener("click", handleClick)
+      // button.addEventListener("mouseover", handleClick)
       //
       // 🐶 créé ensuite une variable `label` qui sera une concaténation
       // "Nous sommes le : `date` il est `time`"
@@ -22,6 +39,25 @@
       // utilise document.getElementById et innerText
 
       // 🚀 La suite est dans la section bonus
+      function handlePress(event) {
+        if (
+          event.code === "Enter" ||
+          event.code === "ArrowDown" ||
+          event.code === "ArrowUp"
+        ) {
+          handleClick()
+        }
+      }
+
+      document.addEventListener("keydown", handlePress)
+
+      const buttonRemoveListener = document.createElement("button")
+      buttonRemoveListener.type = "button"
+      buttonRemoveListener.textContent = "Supprimer l'évènement"
+      buttonRemoveListener.addEventListener("click", function () {
+        document.removeEventListener("keydown", handlePress)
+      })
+      root.appendChild(buttonRemoveListener)
     </script>
   </body>
 </html>

@@ -23,12 +23,36 @@
 <!-- 🐶 Appeler ensuite cette fonction    -->
 <!--   🤖 var resultat = personne.somme(2,4) -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <body>
     <h1>voir la console</h1>
     <script>
-      //démarre ici
+      const personne = {
+        adresse: "22 rue Boileau",
+        age: 44,
+        langages: ["HTML", "CSS", "JS"],
+        nom: "Bourgeois",
+        prenom: "Nicolas",
+      }
+
+      console.log(personne)
+
+      personne.ville = "Paris"
+      personne.rue = 17
+      personne.frameworks = ["React", "Angular", "Vue"]
+
+      console.log(personne)
+
+      for (const key in personne) {
+        console.log(personne[key])
+      }
+
+      personne.somme = function (a, b) {
+        return a + b
+      }
+
+      console.log(personne.somme(4, 6))
     </script>
   </body>
 </html>
